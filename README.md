@@ -35,24 +35,22 @@ As a user, i'd like to be able to win based on my score.
 
 Technologies Used / NPM Modules
 -----------
-
 * CSS
 * JavaScript
 * PostGres
 * Express (Deployed with Heroku)
     * Dependencies used:
-        * Nodemon
-        * Axios
-        * EJS
-        * PG-Promise
-        * Bluebird
-        * CORS
-* React (Deployed with Now)
+        * Nodemon - Auto-refresh the server on code change.
+        * Axios - Promise based HTTP client for the browser and node.js.
+        * EJS - Client-side templating language 
+        * PG-Promise - promise based library that allows to query your database using Javascript.
+        * Bluebird - Bluebird is a fully featured JavaScript promises library
+        * CORS - Cross-origin resource sharing (CORS) is a mechanism 
+* React (Deployed with Now) - Build encapsulated components that manage their own state, then compose them to make complex UIs. 
+* React Bootstrap - Front-end framework, rebuilt for React.
     * Dependencies used:
-        * React-Router
-        * Create-React-App
-* HTML & CSS
-* Cors (can act as a React or Express dependency, will be updated when Dan responds to me haha)
+        * React-Router - Declarative routing for React.
+        * Create-React-App - 
 
 Download Project & Install
 ----------------
