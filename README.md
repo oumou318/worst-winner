@@ -1,12 +1,12 @@
-#BAO! - PROJECT #3
+# BAO! - PROJECT #3
 -----------
-###1-BAO is a card game much like Cards Against Humanity. In each round, players will be answering a question choosen randomly in a deck of questions/cards. Players will each have 30 seconds to answer the question in the allocated input field. Once time has run out, the Grandmaster reads all the answers and decides which answer he/she likes the best. The answer choosen grants a point to the respective player. That concludes the end of a round. There will be in total five rounds. The player with the most points after 5 rounds wins the game.
+### 1-BAO is a card game much like Cards Against Humanity. In each round, players will be answering a question choosen randomly in a deck of questions/cards. Players will each have 30 seconds to answer the question in the allocated input field. Once time has run out, the Grandmaster reads all the answers and decides which answer he/she likes the best. The answer choosen grants a point to the respective player. That concludes the end of a round. There will be in total five rounds. The player with the most points after 5 rounds wins the game.
 
-###Instructions
+### Instructions
 ----------
 There will be essentially three players and one Grandmaster player. In each round the players will rotate and decide who is the next Grandmaster player
 
-##Mockups & Wireframaes
+## Mockups & Wireframaes
 ----------
 
 ![Alt Image](http://i.imgur.com/mWAnOFJ.png)
@@ -15,7 +15,7 @@ There will be essentially three players and one Grandmaster player. In each roun
 
 ![Alt Image](http://i.imgur.com/DsILfWx.png)
 
-##User Stories
+## User Stories
 ----------
 As a user, I want a random BAO card to render on the screen. This card is then read out loud. The other players will then click on the other, smaller cards rendered and the Grandmaster will then pick a card that best fits.
 
@@ -23,7 +23,7 @@ As a user, I’d like to have a score be kept on each player so as to keep track
 
 As a user, i'd like to be able to win based on my score.
 
-##Components and their global purpose
+## Components and their global purpose
 ----------
 (Placeholder) Title and Description ——>Just the app’s name and it’s purpose.
 
