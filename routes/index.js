@@ -7,7 +7,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/getAll', db.getAnswers, db.getQuestions)
-
+router.get('/getQ', db.getQuestions);
+router.get('/getA', db.getAnswers);
+router.post('/create', db.createQ);
+router.post('/cq', db.createA);
+router.delete('/:id', db.deleted);
 
 module.exports = router;
