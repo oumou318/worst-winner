@@ -69,7 +69,7 @@ function deleted(req, res, next) {
 function editCreate(req, res, next) {
 	db.none('update answers set choices=$1 where choice_for=$2', req.body.choice_for)
 	.then(function(){
-		
+		res.json({status: 'edited'})
 	})
 }
 
