@@ -12,5 +12,6 @@ router.get('/getA', db.getAnswers);
 router.post('/create', db.createQ);
 router.post('/cq', db.createA);
 router.delete('/:id', db.deleted);
+router.patch('/:id', db.editCreate)
 
 module.exports = router;

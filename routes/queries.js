@@ -71,6 +71,10 @@ function editCreate(req, res, next) {
 	.then(function(){
 		res.json({status: 'edited'})
 	})
+	.catch(function(err){
+		console.log(err)
+		return next(err)
+	})
 }
 
 
@@ -80,6 +84,7 @@ module.exports = {
 	createA: createA,
 	createQ: createQ,
 	deleted: deleted,
+	editCreate: editCreate,
 }
 
  /* `select questions.question, answers.choices, answers.letter, answers.choice_for, answers.correct 
