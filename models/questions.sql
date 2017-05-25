@@ -11,8 +11,9 @@ CREATE TABLE questions (
 
 CREATE TABLE answers (
 	answerID SERIAL PRIMARY KEY,
-	letter TEXT,
-	choices TEXT,
+	A TEXT,
+	B TEXT,
+	C TEXT,
 	choice_for INTEGER REFERENCES questions(questionID),
 	correct BOOLEAN
 
@@ -70,10 +71,9 @@ VALUES
 
 -- DECLARE @questionID INT = SCOPE_IDENTITY()
 
-INSERT INTO answers (letter, choices, choice_for, correct)
+INSERT INTO answers (A, B, C, choice_for, correct)
 VALUES(
-	'A',
-	'December 28',
+	'December 28','February 18','December 18','1'
 	'1',
 	false
 ),

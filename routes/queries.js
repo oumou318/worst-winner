@@ -46,7 +46,7 @@ function createQ(req, res, next) {
 function createA(req, res, next) {
 	db.none('insert into answers(choices)'+'values(${choices})', req.body)
 	.then(function(q){
-		res.json(q)
+		res.json({status: 'answers created'})
 		return next()
 	})
 }
@@ -67,7 +67,7 @@ function deleted(req, res, next) {
 }
 
 function editCreate(req, res, next) {
-	db.none('update answers set choices=$1 where choice_for=$2', req.body.choice_for)
+	db.none('update answers set choices=$1', req.body.choices)
 	.then(function(){
 		res.json({status: 'edited'})
 	})
